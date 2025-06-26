@@ -20,3 +20,13 @@ The final output is as follows:
 ![image](https://user-images.githubusercontent.com/60610819/230354344-07803abc-4113-43b0-8a6c-1ea2dcdf6bc0.png)
 ![image](https://user-images.githubusercontent.com/60610819/230354575-1d5372aa-fc5e-4471-92b4-fded9ec7e05e.png)
 ![image](https://user-images.githubusercontent.com/60610819/230355100-01957dbc-83ff-47f0-b9a1-29acab19666f.png)
+
+# Step 3: Augment the code to work with video input. 
+initial idea:
+    1. Input the video file
+    2. Convert the video into seperate frames.
+    3. Input the frames into the model, generate a report based on this input
+
+Possible advancements:
+  We could try to define an action like <<Walking, Swimming, Jumping>> by assiging a sequence frames to this label and run the model to detect this sequence.
+  An easier and more convenient way of doing this is simply using OPENCV liberary. Read the file on video detection for this.
