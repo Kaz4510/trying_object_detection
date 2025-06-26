@@ -23,6 +23,7 @@ The final output is as follows:
 
 # Step 3: Augment the code to work with video input. 
 initial idea:
+
     1. Input the video file
     2. Convert the video into seperate frames.
     3. Input the frames into the model, generate a report based on this input
