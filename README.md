@@ -1,7 +1,7 @@
 # Computer Vision - object detection
 A basic Object detection on images using TFOD2 and OPENCV.
 
-# Step 1: annotate the dataset
+# Step 1: Annotate the dataset
   
   Look for images (data) to train & test your model. For training, we need labeled images, i.e., labeled dataset. To create this, we will use labelImg, a python liberary created specifically for this purpose. Use the following command to download the liberary:
   
@@ -10,7 +10,8 @@ A basic Object detection on images using TFOD2 and OPENCV.
   Through this, we need to upload the images, select the object and give a label. It looks something like this:
   
 
-  
+# Step 2: Training model.
+Follow the code files to understand more.
 The model detects the presence on cars on an image using a custome trained model. For the pre trained model, only a single item is classified for training.
 The final output is as follows:
 ![image](https://user-images.githubusercontent.com/60610819/230354386-e587d4c0-e3d6-4efe-84db-f1da79583280.png)
